@@ -119,24 +119,14 @@ StudentName
 Python
 
 
-SELECT StudentName FROM Student WHERE StudentName LIKE 'S%';
+SELECT StudentName FROM Student WHERE StudentName LIKE 'k%';
 
 
 Output:
 
 StudentName
 ---
-Suman Sharma
-Sunil Kumar
-
-
-SELECT StudentName FROM Student WHERE StudentName LIKE '%s';
-
-
-Output:
-
-StudentName
----
+Kabeer Bhowmik
 
 
 SELECT StudentName FROM Student WHERE StudentName LIKE '%s';
