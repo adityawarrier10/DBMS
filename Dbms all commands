@@ -334,11 +334,11 @@ Program did not output anything!
 
 
 -- Insert into CUSTOMER
-INSERT INTO Customer VALUES (101, 'Singh', 'Vishu');
-INSERT INTO Customer VALUES (102, 'Sharma', 'Neha');
-INSERT INTO Customer VALUES (103, 'Verma', 'Ramesh');
-INSERT INTO Customer VALUES (104, 'Kumar', 'Suresh');
-INSERT INTO Customer VALUES (105, 'Thomas', 'Anil');
+INSERT INTO Customer VALUES (101, 'Warrier', 'Aditya');
+INSERT INTO Customer VALUES (102, 'Bhowmik', 'Kabeer');
+INSERT INTO Customer VALUES (103, 'Yadav', 'Eashan');
+INSERT INTO Customer VALUES (104, '.py', 'Python');
+INSERT INTO Customer VALUES (105, 'Bharadwaj', 'Ritham');
 
 -- Insert into ORDERS
 INSERT INTO Orders VALUES (201,'2025-01-10', 101, 25000);
@@ -362,7 +362,7 @@ Output:
 
 SID         First_Name      Last_Name       Amount
 ---
-        101 Vishu           Singh                 25000
+        101 Aditya          Warrier               25000
         102 Neha            Sharma                30000
         103 Ramesh          Verma                 22000
         104 Suresh          Kumar                 28000
