@@ -337,7 +337,7 @@ Program did not output anything!
 INSERT INTO Customer VALUES (101, 'Warrier', 'Aditya');
 INSERT INTO Customer VALUES (102, 'Bhowmik', 'Kabeer');
 INSERT INTO Customer VALUES (103, 'Yadav', 'Eashan');
-INSERT INTO Customer VALUES (104, '.py', 'Python');
+INSERT INTO Customer VALUES (104, 'py', 'Python');
 INSERT INTO Customer VALUES (105, 'Bharadwaj', 'Ritham');
 
 -- Insert into ORDERS
@@ -363,21 +363,21 @@ Output:
 SID         First_Name      Last_Name       Amount
 ---
         101 Aditya          Warrier               25000
-        102 Neha            Sharma                30000
-        103 Ramesh          Verma                 22000
-        104 Suresh          Kumar                 28000
-        105 Anil            Thomas                35000
+        102 Kabeer          bhowmik               30000
+        103 Eashan          Yadav                 22000
+        104 Python          py                    28000
+        105 Ritham          Bharadwaj             35000
 
 
 SELECT * FROM Customer
-WHERE First_Name LIKE '%s' OR Last_Name LIKE '%s';
+WHERE First_Name LIKE '%a' OR Last_Name LIKE '%a';
 
 
 Output:
 
 SID         Last_Name       First_Name
 ---
-        105 Thomas          Anil
+        101 Aditya          Warrier 
 
 
 SELECT * FROM Orders WHERE Amount BETWEEN 21000 AND 30000;
