@@ -1,4 +1,3 @@
-                                             Q1
 -- Student Table
 CREATE TABLE Student (
     StudentId int PRIMARY KEY,
@@ -175,15 +174,15 @@ JOIN Course c ON s.Course = c.Dname;
 
 Output:
 
-StudentName          Fee         Scholarship
+StudentName                Fee           Scholarship
 ---
-Vishu Singhal              30000         3000.00
-Ramesh Chand               40000         4000.00
-Sunil Kumar                40000         4000.00
-Suman Sharma               25000         2500.00
+Aditya Warrier             30000         3000.00
+Eashan Yadav               40000         4000.00
+Ritham Bharadwaj           40000         4000.00
+Kabeer Bhowmik             25000         2500.00
 
 
-SELECT StudentName FROM Student WHERE StudentName LIKE '_k%';
+SELECT StudentName FROM Student WHERE StudentName LIKE 's%';
 
 
 Output:
