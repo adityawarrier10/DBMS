@@ -1,3 +1,4 @@
+Q1.
 -- Student Table
 CREATE TABLE Student (
     StudentId int PRIMARY KEY,
@@ -200,7 +201,7 @@ Output:
 
 StudentName
 ---
-Neha Verma
+Python
 
 
 SELECT * FROM Student ORDER BY Course ASC;
@@ -210,11 +211,11 @@ Output:
 
 StudentId   StudentName          Address1             Gender          Course
 ---
-       4455 Neha Verma           Mumbai               Female          NULL
-       2233 Suman Sharma         Delhi                Female          BBA
-       7369 Vishu Singhal        Govindpuri           Male            BCA
-       7777 Ramesh Chand         Chennai              Male            MCA
-       8899 Sunil Kumar          Jaipur               Male            MCA
+       4455 Python               Fatehpur Beri        Female          NULL
+       2233 Kabeer Bhowmik       Faridabad            Male            BBA
+       7369 Aditya Warrier       Faridabad            Male            BCA
+       7777 Eashan Yadav         Dwarka               Male            MCA
+       8899 Ritham Bharadwaj     Jmnapar              Male            MCA
 
 
 
@@ -299,11 +300,11 @@ Output:
 
 StudentName          Course
 ---
-Neha Verma           NULL
-Suman Sharma         BBA
-Vishu Singhal        BCA
-Ramesh Chand         MCA
-Sunil Kumar          MCA
+Python               NULL
+Kabeer Bhowmik       BBA
+Aditya Warrier       BCA
+Eashan Yadav         MCA
+Ritham Bharadwaj     MCA
 
 
 Q2
